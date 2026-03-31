@@ -1,0 +1,15 @@
+{
+  "name": "dragon-quest-village",
+  "version": "1.0.0",
+  "description": "A 2D adventure game built with Phaser 3 and TypeScript",
+  "scripts": {
+    "build": "tsc && node scripts/prepare-dist.js",
+    "watch": "tsc --watch",
+    "dev": "npx http-server . -p 8080 -c-1"
+  },
+  "devDependencies": {
+    "http-server": "^14.1.1",
+    "phaser": "^3.60.0",
+    "typescript": "^5.3.3"
+  }
+}
